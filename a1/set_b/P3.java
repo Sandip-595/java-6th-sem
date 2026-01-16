@@ -18,7 +18,7 @@ public class P3{
         TreeMap<Integer,String> map1 = new TreeMap<>(map);
         
         System.out.println("\nEntries after sorting according to employee IDs : ");
-        for(Map.Entry<Integer,String> entry : map.entrySet()){
+        for(Map.Entry<Integer,String> entry : map1.entrySet()){
             System.out.println("\nID : "+entry.getKey());
             System.out.println("Name "+entry.getValue());
         }
